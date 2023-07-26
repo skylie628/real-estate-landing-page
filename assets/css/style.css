@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0f1b4c;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins";
+}
+/* common === */
+.content {
+  width: 1110px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  padding: 18px 16px;
+  min-width: 98px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/* header ==== */
+.header {
+  background-color: #e6f0ff;
+  position: relative;
+  height: 100vh;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding-top: 34px;
+}
+.nav-bar ul {
+  display: flex;
+  margin-left: 50px;
+}
+.nav-bar .controls {
+  margin-left: auto;
+}
+.nav-bar ul a {
+  color: #4f5361;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 8px 14px;
+}
+.controls {
+  display: flex;
+  align-items: center;
+}
+.controls__signin {
+  color: #0f1b4c;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.controls__signup {
+  padding: 13px 16px;
+  margin-left: 18px;
+  background: var(--primary-color);
+}
+
+/* Hero === */
+.hero {
+  margin-top: 130px;
+}
+.hero .info {
+  width: 51%;
+}
+.info__subtitle {
+  color: #687690;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+.info__title {
+  margin-top: 8px;
+  color: #000336;
+  font-size: 6.4rem;
+  font-style: normal;
+  line-height: 1.19;
+  font-weight: 700;
+}
+.info__describe {
+  margin-top: 30px;
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.8; /* 177.778% */
+}
+.info__cta {
+  margin-top: 40px;
+  min-width: 170px;
+}
+.hero-img {
+  position: absolute;
+  bottom: 0;
+  right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* brands section ============ */
+.brands {
+  margin-top: 122px;
+}
+.brands__content {
+  margin-bottom: 41px;
+}
+.brands__row {
+  display: flex;
+  justify-content: space-between;
+}
+.brands__row:nth-child(2) p {
+  color: #7d8589;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25; /* 125% */
+}
+.brand__row--modified {
+  margin-top: 1.85rem;
+}
+.brands__logo {
+}
+.brands__star {
+}
+
+.brands__subtitle {
+}
+.brands__starcount {
+}
